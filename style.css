@@ -1,13 +1,18 @@
   .div1 {
-        margin-left: 20%;
-        padding: 10px;
-      }
-      .formal {
-        background-color: rgb(5, 5, 63);
-        color: aliceblue;
-        border: none;
-      }
-      body {
-        background-color: rgb(5, 5, 63);
-        margin-top: 30px;
-      }
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .formal {
+    background-color: rgb(5, 5, 63);
+    color: aliceblue;
+    border: none;
+  }
+
+  body {
+    background-color: rgb(5, 5, 63);
+    margin-top: 30px;
+  }
